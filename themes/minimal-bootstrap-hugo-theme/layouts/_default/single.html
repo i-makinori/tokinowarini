@@ -3,8 +3,12 @@
 <h1>{{ .Title | markdownify }}</h1>
 {{ .Content }}
 
+
+<br /><hr /><br />
+
 <div class="disqus">
   {{template "_internal/disqus.html" .}}
 </div>
+
 
 {{- end -}}
