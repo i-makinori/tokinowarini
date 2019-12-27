@@ -110,7 +110,7 @@ hugo server -D
 にて｡
 
 
-### 目的によりリポジトリを分割する｡
+### 目的の差異を理由として､リポジトリを分割する｡
 
 ```
 $ rm -rf public
@@ -137,14 +137,14 @@ $ ./deploy.sh
 
 ## 参考
 
-- (HUGOでブログ作成 → GitHub Pagesで公開する手順 )[https://chanmitsu55.github.io/2017/12/25/2017-12-25-create-blog-by-hugo/]
+- [HUGOでブログ作成 → GitHub Pagesで公開する手順 ](https://chanmitsu55.github.io/2017/12/25/2017-12-25-create-blog-by-hugo/)
   実際のウェブログの作成において参照したのはほぼこれです｡この纏めの作成にあたっては､ほぼパクリです｡
   技術的に気になりそうな処への資料へのリンクなども逐次配置されていて､再現性は高くなりそうです｡
-- (Host on GitHub)[https://gohugo.io/hosting-and-deployment/hosting-on-github/]
+- [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
   Host on Github
-- (Minimal Bootstrap Hugo Theme)[https://themes.gohugo.io/minimal-bootstrap-hugo-theme/]
+- [Minimal Bootstrap Hugo Theme](https://themes.gohugo.io/minimal-bootstrap-hugo-theme/)
   小生がさらりと見て､最も落ち着いた型枠themeです｡
-- (【2018年版】Hugoとgithub pagesでブログ作る方法【Circle CIも回します】)[https://qiita.com/ryoma-tokushige/items/eba3e6cd415e9755af87]
+- [【2018年版】Hugoとgithub pagesでブログ作る方法【Circle CIも回します】](https://qiita.com/ryoma-tokushige/items/eba3e6cd415e9755af87)
   手法を明確に纏めているような気がします｡
   同一リポジトリに意味が異なってしまうbranchを切っているように見えたり､Circle Clを試したことが無いなどの理由で､この手法はやめておきました｡ 好みの問題と､小生の不勉強です｡
 
