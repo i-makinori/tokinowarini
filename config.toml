@@ -2,6 +2,7 @@ baseURL = "https://i-makinori.github.io"
 languageCode = "ja-jp"
 title = "研究日誌 ときのおわりに"
 theme = "minimal-bootstrap-hugo-theme"
+disqusShortname = "tokinowarini-1"
 
 [taxonomies]
   tag = "tags"
@@ -40,7 +41,7 @@ theme = "minimal-bootstrap-hugo-theme"
   url = "/tags/"
   weight = 2
   [[menu.nav]]
-  name = "About"
+  name = "小生について"
   url = "/about/"
   weight = 3
   [[menu.nav]]

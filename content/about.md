@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "小生について"
 date: 2019-12-27T10:10:57+09:00
 draft: false
 ---
