@@ -1,16 +1,37 @@
 
 # tokinowarini
 
+### 関連ページ
 
-# hugo と github pages によるウェブログの配置と更新について｡
-
-ハマった､､､｡ 解らん｡ hugoも全く解らん｡ 沼だ､､､､ 沼から抜けたいのなら自作しか無いのであろう｡
-
-そうだ､情報空間システムを自作しよう｡
-
-と､言いつつも､無根拠な推測を大量に混ぜつつも､hugoやらgithub pagesやらについての解釈をここに展開してゆく｡
+- [tokinowarini のgitリポジトリ](https://github.com/i-makinori/tokinowarini)
+- [tokinowarini の原稿試験](http://localhost:1313/)
+- [i-makinori.github.io のgitリポジトリ](https://github.com/i-makinori/i-makinori.github.io/)
+- [i-makinori.github.io の公開ページ](https://i-makinori.github.io/)
 
 
+以下､hugoやら､github pagesやら､解らないなりにメモ
+
+# ウェブログの追加や更新の方法
+
+```
+$ hugo new posts/<post_file_name>.md
+```
+
+により､記事ファイルの型枠が作成され､その場所に記事を [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) にて書き込んでいく｡
+
+```
+$ hugo server -w
+```
+
+により､ファイルが更新する毎に､公開用のファイルも更新されるserverがlocalhostが生成され､公開時の様子を見ながら編集できるようになる｡ `-D` オプションにより､下書き(Draft)も見られるようになる｡
+
+```
+$ ./deploy.sh
+```
+
+により､記事自体のリポジトリ､公開用ファイルのリポジトリ毎に､更新がcommitとして生成され､pushされる｡
+
+これにより､更新は公開される｡
 
 ## github pages 上にウェブログを配置するまで｡
 
