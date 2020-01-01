@@ -2,6 +2,7 @@
 title: "はじめに"
 date: 2019-12-26T20:53:43+09:00
 draft: false
+tags: ["Sazare"]
 ---
 
 
